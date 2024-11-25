@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <div class="container">
+        <div class="formdetail">
+        <form action="/post" method="post"> 
+            <label for="Customer_Name">Customer Name :</label>
+            <input type="text" placeholder="Enter the name" id="Customer_Name" name="Customer_Name">
+
+            <label for="Customer_Mobile_No">Customer Mobile No.: </label>
+            <input type="tel" pattern="[6789][0-9]{9}" placeholder="(+91) only" id="Customer_Mobile_No" name="Customer_Mobile_No">
+
+            <label for="products">Products :</label>
+                <select name="products" id="products">
+                    <option value="Select Product">Select Product</option>
+                    <option value="Mixi only">Mixi only</option>
+                    <option value="Mixi with 1 Jar">Mixi with 1 Jar</option>
+                    <option value="Mixi with 2 Jar">Mixi with 2 Jar</option>
+                    <option value="Mixi with 3 Jar">Mixi with 3 Jar</option>
+                    <option value="Iron box">Iron box</option>
+                    <option value="Ceiling fan only">Ceiling fan only</option>
+                    <option value="Ceiling fan with pipe cupX2">Ceiling fan with pipe cupX2</option>
+                    <option value="Bucket Heater">Bucket Heater</option>
+                    <option value="Heater">Heater</option>
+                    <option value="Table top Grinder">Table top Grinder</option>
+                    <option value="Tilting Grinder">Tilting Grinder</option>
+                    <option value="Old Model Grinder">Old Model Grinder</option>
+                    <option value="Pressure Cooker">Pressure Cooker</option>
+                    <option value="Gas Stove only">Gas Stove only</option>
+                    <option value="Gas Stove with Regulator & Tube">Gas Stove with Regulator & Tube</option>
+                    <option value="Commercial Gas Stove">Commercial Gas Stove</option>
+                    <option value="Commercial Gas Stove with Regulator & Tube">Commercial Gas Stove with Regulator & Tube</option>
+                </select>
+            <label for="product_detail">Product Brand & Color : </label>
+            <input type="text" placeholder="Enter the Brand & Color" id="product_detail" name="product_detail">
+            <label for="date">Date : </label>
+            <input type="date" id="date" name="date">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

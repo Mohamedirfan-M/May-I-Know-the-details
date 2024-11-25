@@ -1,0 +1,60 @@
+body {
+    background-image: url(./ams1.jpg );
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.container{
+    height: 510px;
+    width: 450px;
+    border: 1px solid rgb(255, 255, 255);
+    align-items: center;
+    margin-left: 1000px;
+    margin-top: 70px;
+    box-shadow: 0px 7px 10px rgb(255, 255, 255);
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.8;
+    color: whitesmoke;
+}
+.formdetail label{
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 30px;
+    font-weight: 1000;
+}
+.formdetail select{
+    height: 35px;
+    width: 364px;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.formdetail input{
+    font-size: 15px;
+    height: 30px;
+    width: 350px;
+    padding-left: 10px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.formdetail button{
+    font-weight: 900;
+    font-size: 18px;
+    background-color: #4CAF50;
+    height: 35px;
+    width: 365px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: #4CAF50;
+    border-radius: 20px;
+}
+.formdetail button:hover{
+    background-color: rgb(43, 42, 42);
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 18px;
+}
